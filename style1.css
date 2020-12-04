@@ -1,0 +1,25 @@
+* {
+  font-size: 100%;
+  margin-left: 120;
+  margin-right: 120;
+  line-height: 2;
+  /* border: 1px solid red; */
+}
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: Floralwhite;
+  color: Midnightblue;
+  font-family: 'Playfair Display', Helvetica, Trebuchet;
+  font-size: 14px;
+  text-align: center;
+  margin: 50px;
+    font-family: 'Playfair Display', Helvetica, Trebuchet;
+}
+
+footer {
+  font-size: 30px;
+  text-align: center;
+}
