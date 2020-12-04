@@ -1,5 +1,9 @@
 * {
   font-size: 100%;
+  line-height: 2;
+}
+h1, h2, h3 {
+  margin-bottom: 20px;
 }
 body {
   background-color: Floralwhite;
@@ -7,29 +11,41 @@ body {
   font-family: 'Playfair Display', Helvetica, Trebuchet;
   font-size: 14px;
 }
-
+body h3 {
+  text-align: center;
+}
 h1 {
   color: Navy;
   font-family: Trebuchet, Arial;
   font-size: 36px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 header h1 {
-  text-align: center
+  text-align: center;
 }
 
 h2 {
   font size: 24px;
   font-style: italic;
 }
+h2 ul {
+  font-weight: bold;
+  text-align: center;
+}
 
-h3{font-size: 18px;
+body h3{font-size: 18px;
+  text-align: center;
 }
 
 p{
   line-height: 2;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right:120px;
+  margin-left: 120px;
 }
 
 a: {
@@ -39,4 +55,7 @@ a: {
 
 a:hover {
   text-decoration: underline;
+}
+footer {
+  text-align: center;
 }
